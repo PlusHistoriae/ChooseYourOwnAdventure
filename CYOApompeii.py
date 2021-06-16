@@ -3,10 +3,10 @@ print ("Hello. This is the ChooseYourOwnAdventure speaking. You are playing Choo
 print ("Would you like to proceed with ChooseYourOwnAdventure? If yes, type 1. If no, type 2.")
 
 proceed_question = input()
-proceed_question_answer_proceed = 1
-proceed_question_answer_stop = 2
 
-if str(proceed_question) == proceed_question_answer_stop:
-  print ("The CYOA has been stopped.")
-elif str(proceed_question) == proceed_question_answer_proceed:
-  print ("The CYOA shall proceed.")
+if proceed_question == '2':
+  print("You stopped the ChooseYourOwnAdventure")
+
+if proceed_question == '1':
+  print ("The ChooseYourOwnAdventure shall proceed.")
+  print ("You will be reffered to as 'Thomas Brown', for the length of the program.
