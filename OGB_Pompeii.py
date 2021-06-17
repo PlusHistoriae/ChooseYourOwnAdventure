@@ -47,9 +47,9 @@ if choice_2a == '1':
 
 choice_3a = input()
 
-if choice_3a == '1'
+if choice_3a == '1':
   print(choice_sewers2)
-if choice_3a == '2'
+if choice_3a == '2':
   print(choice_warehouse)
 
 if choice_2a == '2':
@@ -68,9 +68,9 @@ if choice_2a == '3':
 choice_3c = input()
 
 if choice_3c == '1':
-  print ("IDK WHAT TO")
+  print ("IDK WHAT TO PUT HERE FOR NOW")
 if choice_3c == '2':
-  print()
+  print("OR HERE")
 if choice_2a == '4':
   print(choice_report)
 
